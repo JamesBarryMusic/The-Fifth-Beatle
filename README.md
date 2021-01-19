@@ -29,9 +29,9 @@ The modules necessary to run generate_chords.py are common, many of which are de
 To run generate_chords.py, you must specify the path of the CSV file with chord progression data, and then you are ready to Rock n Roll.
 <h3>Some Examples</h3>
 
-In its current state, the program outputs ten chord progressions in both a major and minor key in the style of The Beatles. Below is an example of this output.
+In its current state, the program outputs ten chord progressions in both a major and minor keys in the style of The Beatles. Check below for example.
 
-<p align='center'><img src="imgs/generate_chords-output.png" width='400px'></p>
+<p align='center'><img src="imgs/generate_chords-output.png" width='500px'></p>
 
 
 My Favourite Example
