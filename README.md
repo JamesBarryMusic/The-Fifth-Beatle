@@ -1,18 +1,13 @@
 # The Fifth Beatle
 
-This repository contains a project where I wanted to explore Markov Chains to Generate Chord Progressions in the Style of The Beatles.
+This repository contains a project where I wanted to explore [Markov Chains](https://en.wikipedia.org/wiki/Markov_chain) to Generate Chord Progressions in the Style of The Beatles.
 
 <p align='center'><img src="imgs/the-fifth-beatle.png" width='400px'></p>
 
-There are two main parts of this project, each separated into their own Python file. In this repo I only attached the one called generate_chords.py, since it's the main meat and potatoes of the project. If you want more info on scrapping please visit [Beautiful Soups Documenatation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/). 
+There are two main parts of this project, each separated into their own Python file. In this repo I only attached the one called generate_chords.py, since it contains the main meat and potatoes of the project. If you want more info on scrapping please visit [Beautiful Soups Documenatation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/). 
 
 
-The second file, called Chord_Analysis.py, reads in a CSV file of chord progression data (like the one from Chord_Scraping.py) and analyzes it so it can generate chord progressions in a similar style. In its current state, this program analyzes the chord movements of The Beatles, keeping track of what movements they typically make. For example, if they're writing in the key of C major, and they just played an E minor chord, what chord would The Beatles typically choose next? The data shows they'll likely move to an A minor, D minor seventh, or G major chord. 
-
-<p align="center">
-  <img src='https://raw.githubusercontent.com/connorobrien/BeatlesStyleChordProgressions/main/Em_in_C_probabilities.png' width="700">
-</p>
-<br>
+generate_chords.py, reads in a CSV file of chord progression data (like the one from Chord_Scraping.py) and analyzes it so it can generate chord progressions in a similar style. In its current state, this program analyzes the chord movements of The Beatles, keeping track of what movements they typically make. For example, if they're writing in the key of C major, and they just played an E minor chord, what chord would The Beatles typically choose next? The data shows they'll likely move to an A minor, D minor seventh, or G major chord. 
 
 This program keeps track of all potential chord movements of The Beatles in a ‘transition state matrix’, which in layperson’s terms is a table of numbers that can find the probability of a next chord given the current chord. This method allows for ‘chaining’ of chord predictions (i.e. Markov Chains), which allows it to generate full chord progressions from a single start chord. As its currently set up, Chord_Scraping.py will produce ten chord progressions in the style of The Beatles in both a major and minor key. I’ve included a CSV with the web-scraped chord progression data for The Beatles in this repository, named ‘the_beatles_chordprogressiondata.csv’.
 
