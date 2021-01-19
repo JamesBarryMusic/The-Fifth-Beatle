@@ -34,7 +34,11 @@ In its current state, the program outputs ten chord progressions in both a major
 <p align='center'><img src="imgs/generate_chords-output.png" width='400px'></p>
 
 
-Some Examples
+My Favourite Example
+
+<p align='center'><img src="imgs/the-fifth-beatle.png" width='400px'></p>
+
+https://soundcloud.com/jamesjohnbarry/the-fifth-beatle-example
 
 
 
