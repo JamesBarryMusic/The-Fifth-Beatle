@@ -1,5 +1,6 @@
-# The-Fifth-Beatle
-Using Markov Chains to Generate Chord Progressions in the Style of The Beatles
+# The Fifth Beatle
+
+<p align='center'><img src="imgs/the-fifth-beatle.png" width='800px'></p>
 
 This repository contains a project where I wanted to explore Markov Chains to Generate Chord Progressions in the Style of The Beatles.
 
