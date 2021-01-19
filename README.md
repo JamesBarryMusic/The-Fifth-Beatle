@@ -1,6 +1,6 @@
 # The Fifth Beatle
 
-<p align='center'><img src="imgs/the-fifth-beatle.png" width='8400px'></p>
+<p align='center'><img src="imgs/the-fifth-beatle.png" width='400px'></p>
 
 This repository contains a project where I wanted to explore Markov Chains to Generate Chord Progressions in the Style of The Beatles.
 
