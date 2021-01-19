@@ -4,7 +4,7 @@ This repository contains a project where I wanted to explore [Markov Chains](htt
 
 <p align='center'><img src="imgs/the-fifth-beatle.png" width='400px'></p>
 
-There are two main parts of this project, each separated into their own Python file. In this repo I only attached the one called generate_chords.py, since it contains the main meat and potatoes of the project. If you want more info on scrapping please visit [Beautiful Soups Documenatation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/). 
+There are two main parts of this project, each separated into their own Python file. In this repo I only attached generate_chords.py, since it contains the main meat and potatoes of "The Fifth Beatle". If you want more info on scrapping please visit [Beautiful Soups Documenatation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/). 
 
 
 generate_chords.py, reads in a CSV file of chord progression data (like the_beatles_chords.csv) and analyzes it so it can generate chord progressions in a similar style. In its current state, this program analyzes the chord movements of The Beatles, keeping track of what movements they typically make. For example, if they're writing in the key of C major, and they just played an E minor chord, what chord would The Beatles typically choose next? The data shows they'll likely move to an A minor, D minor seventh, or G major chord. 
