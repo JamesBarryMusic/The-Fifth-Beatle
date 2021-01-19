@@ -31,7 +31,7 @@ To run generate_chords.py, you must specify the path of the CSV file with chord 
 
 In its current state, the program outputs ten chord progressions in both a major and minor key in the style of The Beatles. Below is an example of this output.
 
-<p align='center'><img src="imgs/generate_chords-output.png" width='400px'></p>
+<p align='center'><img src="imgs/generate_chords-output-example.png" width='400px'></p>
 
 
 My Favourite Example
