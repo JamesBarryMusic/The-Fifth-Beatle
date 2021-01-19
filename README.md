@@ -13,27 +13,20 @@ This program keeps track of all potential chord movements of The Beatles in a â€
 
 <h3>Running This Program</h3>
 
-To run this program, you must download Chord_Analysis.py and Chord_Scraping.py, and potentially 'the_beatles_chordprogressiondata.csv' if you'd like to save yourself the trouble of web-scraping the chord progression data.
+To run this program, you must download generate_chords.py and the dataset which you can find in /data/the_beatles_chords.csv
 
-The modules necessary to run these two files are common, many of which are default libraries. You'll need:
+The modules necessary to run generate_chords.py are common, many of which are default libraries. You'll need:
 
 <ul>
-<li>Beautiful Soup (bs4)</li>
 <li>Collections</li>
 <li>CSV</li>
 <li>Numpy</li>
 <li>Pandas</li>
 <li>Random</li>
-<li>Requests</li>
-<li>Regex</li>
-<li>Selenium with Chrome Driver</li>
-<li>Time</li>
 </ul>
 
-To run Chord_Scraping.py, you must set the location of your Selenium Chrome Driver as the PATH in line 12. You can also change the artist in line 10 to scrape chord progressions from other artists present in Hook Theory's Theory Tab. 
 
-To run Chord_Analysis.py, you must specify the path of the CSV file with chord progression data, such as the one included in this repository. 
-
+To run generate_chords.py, you must specify the path of the CSV file with chord progression data, and then you are ready to Rock n Roll.
 <h3>Some Examples</h3>
 
 In its current state, the program outputs ten chord progressions in both a major and minor key in the style of The Beatles. Below is an example of this output.
